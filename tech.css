@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  background-color: #412567;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.nav-title {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  align-content: center;
+}
+.nav-title span {
+  background-image: linear-gradient(#f7e93f, #fb09b4, #9100f8);
+  background-clip: text;
+  color: transparent;
+}
+.nav-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+.nav-subscribe {
+  width: 135px;
+  height: 45px;
+  border: 1px solid purple;
+  border-radius: 10000px;
+  align-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(230, 235, 63, 1),
+    rgba(260, 10, 185, 1),
+    rgba(150, 0, 248, 1)
+  );
+  background-color: transparent;
+  color: white;
+}
+.hambarger {
+  visibility: hidden;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Responsive Section */
+/* Small Device */
+@media screen and (max-width: 576px) {
+  .nav-title {
+    font-size: 45px;
+  }
+  .hambarger {
+    visibility: visible;
+    display: block;
+    width: 100%;
+  }
+  .nav-info,
+  .nav-subscribe {
+    visibility: hidden;
+  }
+}
+
+/* Medium Device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+}
