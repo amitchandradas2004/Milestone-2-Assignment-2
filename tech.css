@@ -103,7 +103,7 @@
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   gap: 10px;
-  margin: 0px 80px;
+  padding-bottom: 50px;
 }
 .stat-1 span {
   color: #00ff88;
@@ -146,7 +146,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
-  margin: 40px 90px;
+  margin: 40px 40px;
   padding-bottom: 100px;
   margin-bottom: 0;
 }
@@ -187,7 +187,7 @@
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 50px;
+  margin-left: 20px;
 }
 .card:hover {
   transition: ease-in 0.6s;
@@ -359,11 +359,11 @@ footer:hover {
   .hambarger {
     visibility: visible;
     display: block;
-    width: 100%;
   }
   .nav-info,
   .nav-subscribe {
     visibility: hidden;
+    display: none;
   }
   .about-stat {
     display: grid;
@@ -379,6 +379,15 @@ footer:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
+  .featured{
+    padding-right: 10px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .card-container{
+    width: 90%;
+    padding-bottom: 50px;
+  }
   .box-all{
     width: 100%;
   }
@@ -386,10 +395,10 @@ footer:hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
   }
   .card{
-    width: 75%;
+    width: 100%;
   }
   .Host {
     display: flex;
@@ -402,6 +411,9 @@ footer:hover {
   }
   .meet-title {
     text-align: center;
+  }
+  .Meet-The-Host{
+    padding: 30px 20px;
   }
   
   .footer-title{
