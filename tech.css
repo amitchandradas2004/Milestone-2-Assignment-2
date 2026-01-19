@@ -92,12 +92,12 @@
   height: 100px;
 }
 .new {
-  border: 1px solid green;
   border-radius: 1000px;
   font-size: 16px;
   background-color: #00ff88;
   color: black;
   padding: 5px;
+  padding-left: 5px;
   font-weight: bold;
   position: relative;
   width: 55px;
@@ -107,8 +107,65 @@
 }
 .new:hover {
   transition: ease-in 1s;
-  transform: scale(1.1);
+  transform: scale(1.2);
   background-color: #b384f4;
+}
+.tech {
+  color: white;
+  font-size: 50px;
+}
+.tech-p {
+  font-size: 12px;
+  color: #959393;
+}
+.techwave {
+  width: 500px;
+  height: 140px;
+  text-align: center;
+  position: relative;
+  left: 170px;
+  top: 60px;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.icon-spotify {
+  color: white;
+  border-radius: 10000px;
+  background-image: linear-gradient(to bottom right, #f7e93f, #fb09b4, #9100f8);
+  padding-top: 3px;
+  width: 180px;
+  height: 30px;
+  font-weight: bold;
+}
+.icon-spotify:hover {
+  transition: ease-in 0.6s;
+  transform: scale(1.1);
+}
+.icon-spotify img {
+  width: 10px;
+  height: 10px;
+}
+.icon-sub {
+  color: #00ff88;
+  border: 1px solid #00ff88;
+  border-radius: 10000px;
+  background-color: transparent;
+  font-weight: bold;
+  width: 140px;
+  height: 30px;
+  padding-top: 3px;
+}
+.icon-sub:hover {
+  transition: ease-in 0.6s;
+  transform: scale(1.1);
+}
+.icon-sub img {
+  width: 10px;
+  height: 10px;
 }
 
 /* About the podcast */
@@ -420,6 +477,21 @@ footer:hover {
     left: 135px;
     top: -230px;
   }
+  .techwave {
+    width: 250px;
+    height: 140px;
+    text-align: center;
+    position: relative;
+    left: 140px;
+    top: 100px;
+  }
+  .banner-text {
+    border: 1px solid rgb(221, 221, 230);
+  }
+  .tech {
+    color: #00ff88;
+  }
+  /*  */
   .about-stat {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -485,19 +557,24 @@ footer:hover {
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .circle {
-    left: 250px;
+    left: 323px;
     top: 40px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
   .mic {
     position: absolute;
-    left: 330px;
-    top: 150px;
+    left: 370px;
+    top: 143px;
   }
   .mic img {
-    width: 130px;
-    height: 160px;
+    width: 100px;
+    height: 110px;
+  }
+  .new {
+    width: 65px;
+    left: 90px;
+    top: -150px;
   }
 }
 
@@ -516,5 +593,18 @@ footer:hover {
   .mic img {
     width: 160px;
     height: 160px;
+  }
+  .new {
+    width: 65px;
+    left: 150px;
+    top: -210px;
+  }
+  .techwave {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 290px;
+    top: 100px;
   }
 }
