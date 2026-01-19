@@ -46,6 +46,11 @@
   background-color: transparent;
   color: white;
 }
+.nav-subscribe:hover {
+  transition: ease-in 1s;
+  transform: scale(1.2);
+}
+
 .hambarger {
   visibility: hidden;
   background: none;
@@ -142,6 +147,8 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
   margin: 40px 90px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
 }
 .box-all {
   border-radius: 40px;
@@ -149,12 +156,38 @@
   padding: 20px;
   background-color: rgba(53, 17, 101, 0.4);
 }
+.box-all:hover {
+  transition: ease-in 0.6s;
+  transform: scale(1.1);
+}
 .box-grid-1 {
   grid-row: span 2;
 }
 .box-grid-2 {
   grid-column: span 2;
 }
+.box-all:hover {
+  background-color: #3a3afb;
+}
+
+
+/* Featured Episodes Section */
+
+.featured{
+  margin-top: 0;
+  background-color: #1A0B2E;
+}
+.featured-title{
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
 
 /* Responsive Section */
 /* Small Device */
@@ -180,8 +213,9 @@
   .p-line {
     visibility: hidden;
   }
-}
-
-/* Medium Device */
-@media screen and (min-width: 577px) and (max-width: 992px) {
+  .why-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 }
