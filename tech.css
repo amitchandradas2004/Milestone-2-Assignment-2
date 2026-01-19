@@ -556,6 +556,9 @@ footer:hover {
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  .navbar{
+    padding-left: 70px;
+  }
   .circle {
     left: 323px;
     top: 40px;
@@ -579,6 +582,9 @@ footer:hover {
 }
 
 @media screen and (min-width: 993px) {
+   .navbar{
+    padding-left: 180px;
+  }
   .circle {
     left: 320px;
     top: 90px;
