@@ -456,34 +456,36 @@ footer:hover {
     visibility: hidden;
     display: none;
   }
+  
   .circle {
-    left: 20px;
-    top: 90px;
-    width: 500px;
-    height: 410px;
+    position: relative;
+    left: 185px;
+    top: 20px;
+    width: 180px;
+    height: 180px;
   }
   .mic {
     position: absolute;
-    left: 180px;
-    top: 255px;
+    left: 235px;
+    top: 130px;
   }
   .mic img {
-    width: 180px;
-    height: 160px;
+    width: 80px;
+    height: 80px;
   }
   .new {
     position: relative;
     width: 65px;
-    left: 135px;
-    top: -230px;
+    left: 65px;
+    top: -135px;
   }
   .techwave {
     width: 250px;
     height: 140px;
     text-align: center;
     position: relative;
-    left: 140px;
-    top: 100px;
+    left: 150px;
+    top: 15px;
   }
   .banner-text {
     border: 1px solid rgb(221, 221, 230);
