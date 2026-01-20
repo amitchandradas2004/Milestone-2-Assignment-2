@@ -110,6 +110,19 @@
   transform: scale(1.2);
   background-color: #b384f4;
 }
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+.new {
+  font-size: 16px;
+  background-color: rgb(98, 207, 132);
+  animation: pulse 1s infinite alternate;
+}
 .tech {
   color: white;
   font-size: 50px;
@@ -456,7 +469,7 @@ footer:hover {
     visibility: hidden;
     display: none;
   }
-  
+
   .circle {
     position: relative;
     left: 185px;
@@ -558,7 +571,7 @@ footer:hover {
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .navbar{
+  .navbar {
     padding-left: 70px;
   }
   .circle {
@@ -584,7 +597,7 @@ footer:hover {
 }
 
 @media screen and (min-width: 993px) {
-   .navbar{
+  .navbar {
     padding-left: 180px;
   }
   .circle {
